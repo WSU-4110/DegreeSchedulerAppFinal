@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    android:gravity="center"
+    android:padding="26dp"
+    android:orientation="vertical"
+    tools:context=".Menu">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Welcome!"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Choose an activity"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:text="Create a schedule"
+        android:textColor="#03814B"
+        android:textStyle="bold"
+        app:backgroundTint="#F1E5AD"
+        app:icon="@drawable/schedule"
+        app:iconPadding="8dp"
+        app:iconTint="#000000" />
+
+    <Button
+        android:id="@+id/btnDownView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:text="View / Download Schedule(s)"
+        android:textColor="#03814B"
+        android:textStyle="bold"
+        app:backgroundTint="#F1E5AD"
+        app:icon="@drawable/view_download"
+        app:iconTint="#000000" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:text="Contact WSU Faculty"
+        android:textColor="#03814B"
+        android:textStyle="bold"
+        app:backgroundTint="#F1E5AD"
+        app:icon="@drawable/chat"
+        app:iconTint="#000000" />
+</LinearLayout>

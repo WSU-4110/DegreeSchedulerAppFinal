@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699992657997",
+    "project_id": "degreeschedulerapp1",
+    "storage_bucket": "degreeschedulerapp1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699992657997:android:1e9b950934e13aae2a0c04",
+        "android_client_info": {
+          "package_name": "com.example.degreeschedulerapp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699992657997-h38a309gq50q1shpbugqav7l37j79len.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxBcoXetfUevwETV_V4dRAh5SRzvCckH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699992657997-h38a309gq50q1shpbugqav7l37j79len.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
