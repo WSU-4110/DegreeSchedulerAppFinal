@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DegreeSchedulerApp1</string>
+    <string name="addclass">AddClass</string>
+    <string name="enter_class_crn">Enter Class Crn</string>
+    <string name="Enter_Class_CRN" />
+    <string name="Enter_Class_CRN_Below" />
 </resources>

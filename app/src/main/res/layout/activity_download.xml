@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download_bg"
+    tools:context=".Download"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note: You would be responsible for distribution of your schedule information."
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" />
+    <CheckBox
+        android:id="@+id/consentBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:layout_gravity="right"
+        android:text="I agree and wish to proceed"/>
+    <Button
+        android:id="@+id/load_Btn"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Class"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:textColor="#005e85"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/classText"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:scrollbars="vertical"
+        />
+    <Button
+        android:id="@+id/download_Btn"
+        android:layout_width= "250dp"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:textColor="#005e85"/>
+    <TextView
+        android:id="@+id/termsConditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:text="Terms and Conditions"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

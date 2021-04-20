@@ -31,8 +31,15 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnCreate:
-                startActivity(new Intent(this, Create.class));
+                startActivity(new Intent(this, CreateSchedule.class));
                 break;
+            case R.id.btnDownView:
+                startActivity(new Intent(this, Download.class));
+                break;
+            case R.id.btnShare:
+                startActivity(new Intent(this, webview.class));
+                break;
+
 
         }
     }
