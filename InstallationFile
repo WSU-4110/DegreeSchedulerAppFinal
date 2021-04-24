@@ -1,0 +1,10 @@
+#Installation File
+
+Here is how to run our app!
+
+-Download Android Studio: https://developer.android.com/studio
+-Clone this repository and add it to your android studio project
+-Set up the emulator: 
+    -Click on tools -> AVD Manager -> Create Virtual Device -> Choose Pixel_3A_API_30_x86
+-Run the app and the emulator will run the program.
+
